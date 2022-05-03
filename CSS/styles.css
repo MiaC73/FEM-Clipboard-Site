@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+  font-size: 18px;
+  font-family: 'Bai Jamjuree', sans-serif;
+  text-align: center;
+  font-weight: 400;
+  color: hsl(201, 11%, 66%);
+  line-height: 2;
+}
+
+h1, h2 {
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+  margin: 0;
+}
+
+h3 {
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+/**HEADING CLASSES**/
+.heading {
+  margin: 0 auto 100px;
+  display: block;
+  padding-bottom: 30px;
+  position: relative;
+  width: 70%;
+}
+
+.bg_img {
+  margin: auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.logo_img {
+  margin: auto;
+  position: absolute;
+  top: -160px;
+  height: 100px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+/**SECTION CLASSES**/
+.section {
+  margin: 100px auto;
+  position: relative;
+}
+
+.p2 {
+  font-size: 1rem;
+  width: 75%;
+  margin: 30px auto 50px;
+}
+
+.p3 {
+  font-size: 0.875rem;
+  margin-bottom: auto 40px;
+}
+
+.p_left_align {
+  font-size: 0.875rem;
+  margin-bottom: 40px;
+  text-align: left;
+  width: 70%;
+}
+
+.macbook_img {
+  height: 400px;
+  left: -35px;
+  padding-right: 30px;
+}
+
+.devices_img {
+  height: 450px;
+}
+
+.icon_general {
+  height: 40px;
+}
+
+.icon_companies {
+  margin: auto;
+  height: 35px;
+}
+
+.tb_main {
+  margin: auto;
+}
+
+.tb_centered {
+  table-layout: fixed;
+  width: 280px;
+  float: left;
+  margin-left: 60px;
+}
+
+.tb_main {
+  margin: auto;
+  table-layout: auto;
+  width: 90%;
+}
+
+/**FOOTER CLASSES**/
+.footer {
+  background-color: #EFEFEF;
+  margin: 30px auto 0;
+  padding: 50px;
+  display: block;
+  position: relative;
+}
+
+.icon_social {
+  margin: auto 5px;
+  height: 90%;
+  right: 30px;
+}
+
+.logo_footer {
+  height: 50px;
+}
+
+.footer_links {
+  text-decoration: none;
+  color: hsl(201, 11%, 66%);
+  font-size: 14px;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: bold;
+}
+
+.tb_footer {
+  table-layout: fixed;
+  width: 400px;
+  text-align: left;
+  float: left;
+  position: relative;
+  left: 100px;
+  right: 200px;
+  bottom: 15px;
+}
+
+.float {
+  float: left;
+  margin-left: 100px;
+}
+
+/**BUTTON CLASSES**/
+.btn_blue {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  -webkit-box-shadow: 1px 2px 3px #0015b0;
+  -moz-box-shadow: 1px 2px 3px #0015b0;
+  box-shadow: 1px 2px 3px #0015b0;
+  font-family: 'Bai Jamjuree', sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  background: hsl(233, 100%, 69%);
+  padding: 10px 26px 10px 26px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #0015b0;
+  text-decoration: none;
+}
+
+.btn_green {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  -webkit-box-shadow: 1px 2px 3px #267065;
+  -moz-box-shadow: 1px 2px 3px #267065;
+  box-shadow: 1px 2px 3px #267065;
+  font-family: 'Bai Jamjuree', sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  background: hsl(171, 66%, 44%);
+  padding: 10px 26px 10px 26px;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-top: 50px;
+}
+
+.btn_green:hover {
+  background: #267065;
+  text-decoration: none;
+}
